@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "impavithra/apache"
+    registry = "impavithra/jenkins"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
